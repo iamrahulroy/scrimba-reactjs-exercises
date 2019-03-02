@@ -18,6 +18,8 @@ import ContactCardExercise from './PropsInReact/ContactCardExercise';
 import MappingComponentPractice from './MappingComponentPractice/MappingComponentPractice';
 
 import TodoApp from "./TodoAppPhase3/TodoApp"
+import ClassBasedComponents from "./ClassBasedComponentsPractice/ClassBasedComponents"
+
 
 
 class App extends Component {
@@ -47,6 +49,10 @@ class App extends Component {
                       <Link to="/TodoAppPhase3/">Todo app phase 3</Link>
                     </ListGroup.Item>
 
+                    <ListGroup.Item>
+                      <Link to="/ClassBasedComponents/">Class-based Components Practice</Link>
+                    </ListGroup.Item>
+
                   </ListGroup>
                 </Col>
               </Row>
@@ -57,6 +63,7 @@ class App extends Component {
           <Route path="/ContactCardExercise" component={ContactCardExercise} />
           <Route path="/MappingComponentPractice" component={MappingComponentPractice} />
           <Route path="/TodoAppPhase3" component={TodoApp} />
+          <Route path="/ClassBasedComponents" component={ClassBasedComponents} />
         </div>
       </Router>
     );
