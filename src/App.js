@@ -25,16 +25,18 @@ class App extends Component {
               <Row>
                 <Col>
                   <ListGroup>
+
                     <ListGroup.Item>
                       <Link to="/InlineStylesWithStyleProperty/">InlineStylesWithStyleProperty</Link>
                     </ListGroup.Item>
+
                   </ListGroup>
                 </Col>
               </Row>
             </Container>
           </Jumbotron>
 
-          <Route path="/InlineStylesWithStyleProperty" exact component={InlineStylesWithStyleProperty} />
+          <Route path="/InlineStylesWithStyleProperty" component={InlineStylesWithStyleProperty} />
         </div>
       </Router>
     );
