@@ -19,6 +19,7 @@ import MappingComponentPractice from './MappingComponentPractice/MappingComponen
 
 import TodoApp from "./TodoAppPhase3/TodoApp"
 import ClassBasedComponents from "./ClassBasedComponentsPractice/ClassBasedComponents"
+import StatePractice from './StatePractice/StatePractice'
 
 
 
@@ -53,6 +54,10 @@ class App extends Component {
                       <Link to="/ClassBasedComponents/">Class-based Components Practice</Link>
                     </ListGroup.Item>
 
+                    <ListGroup.Item>
+                      <Link to="/StatePractice/">State Practice</Link>
+                    </ListGroup.Item>
+
                   </ListGroup>
                 </Col>
               </Row>
@@ -64,6 +69,7 @@ class App extends Component {
           <Route path="/MappingComponentPractice" component={MappingComponentPractice} />
           <Route path="/TodoAppPhase3" component={TodoApp} />
           <Route path="/ClassBasedComponents" component={ClassBasedComponents} />
+          <Route path="/StatePractice" component={StatePractice} />
         </div>
       </Router>
     );
