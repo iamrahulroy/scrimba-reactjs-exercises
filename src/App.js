@@ -15,6 +15,8 @@ import './App.css';
 // Scrimba exercises
 import InlineStylesWithStyleProperty from './InlineStylesWithStyleProperty';
 import ContactCardExercise from './ContactCardExercise';
+import MappingComponentPractice from './MappingComponentPractice';
+
 
 class App extends Component {
   render() {
@@ -35,6 +37,10 @@ class App extends Component {
                       <Link to="/ContactCardExercise/">Props in React</Link>
                     </ListGroup.Item>
 
+                    <ListGroup.Item>
+                      <Link to="/MappingComponentPractice/">Mapping Components Practice</Link>
+                    </ListGroup.Item>
+
                   </ListGroup>
                 </Col>
               </Row>
@@ -43,6 +49,7 @@ class App extends Component {
 
           <Route path="/InlineStylesWithStyleProperty" component={InlineStylesWithStyleProperty} />
           <Route path="/ContactCardExercise" component={ContactCardExercise} />
+          <Route path="/MappingComponentPractice" component={MappingComponentPractice} />
         </div>
       </Router>
     );
