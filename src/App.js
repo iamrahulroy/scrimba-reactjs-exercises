@@ -17,6 +17,8 @@ import InlineStylesWithStyleProperty from './InlineStylesWithStyleProperty/Inlin
 import ContactCardExercise from './PropsInReact/ContactCardExercise';
 import MappingComponentPractice from './MappingComponentPractice/MappingComponentPractice';
 
+import TodoApp from "./TodoAppPhase3/TodoApp"
+
 
 class App extends Component {
   render() {
@@ -41,6 +43,10 @@ class App extends Component {
                       <Link to="/MappingComponentPractice/">Mapping Components Practice</Link>
                     </ListGroup.Item>
 
+                    <ListGroup.Item>
+                      <Link to="/TodoAppPhase3/">Todo app phase 3</Link>
+                    </ListGroup.Item>
+
                   </ListGroup>
                 </Col>
               </Row>
@@ -50,6 +56,7 @@ class App extends Component {
           <Route path="/InlineStylesWithStyleProperty" component={InlineStylesWithStyleProperty} />
           <Route path="/ContactCardExercise" component={ContactCardExercise} />
           <Route path="/MappingComponentPractice" component={MappingComponentPractice} />
+          <Route path="/TodoAppPhase3" component={TodoApp} />
         </div>
       </Router>
     );
