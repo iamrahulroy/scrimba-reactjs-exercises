@@ -14,6 +14,7 @@ import './App.css';
 
 // Scrimba exercises
 import InlineStylesWithStyleProperty from './InlineStylesWithStyleProperty';
+import ContactCardExercise from './ContactCardExercise';
 
 class App extends Component {
   render() {
@@ -27,7 +28,11 @@ class App extends Component {
                   <ListGroup>
 
                     <ListGroup.Item>
-                      <Link to="/InlineStylesWithStyleProperty/">InlineStylesWithStyleProperty</Link>
+                      <Link to="/InlineStylesWithStyleProperty/">Inline Styles With Style Property</Link>
+                    </ListGroup.Item>
+
+                    <ListGroup.Item>
+                      <Link to="/ContactCardExercise/">Props in React</Link>
                     </ListGroup.Item>
 
                   </ListGroup>
@@ -37,6 +42,7 @@ class App extends Component {
           </Jumbotron>
 
           <Route path="/InlineStylesWithStyleProperty" component={InlineStylesWithStyleProperty} />
+          <Route path="/ContactCardExercise" component={ContactCardExercise} />
         </div>
       </Router>
     );
