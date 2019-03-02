@@ -3,10 +3,10 @@ import productsData from './productCollection'
 import Product from './Product'
 
 function MappingComponentPractice() {
-  const products = productsData.map(product => <Product key={product} info={product} />)
+  const productComponents = productsData.map(product => <Product key={product} product={product} />)
   return (
     <div>
-      {products}
+      {productComponents}
     </div>
   )
 }

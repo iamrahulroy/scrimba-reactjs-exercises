@@ -13,9 +13,9 @@ import logo from './logo.svg';
 import './App.css';
 
 // Scrimba exercises
-import InlineStylesWithStyleProperty from './InlineStylesWithStyleProperty';
-import ContactCardExercise from './ContactCardExercise';
-import MappingComponentPractice from './MappingComponentPractice';
+import InlineStylesWithStyleProperty from './InlineStylesWithStyleProperty/InlineStylesWithStyleProperty';
+import ContactCardExercise from './PropsInReact/ContactCardExercise';
+import MappingComponentPractice from './MappingComponentPractice/MappingComponentPractice';
 
 
 class App extends Component {
