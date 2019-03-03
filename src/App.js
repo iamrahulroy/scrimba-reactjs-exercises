@@ -21,6 +21,7 @@ import TodoApp from "./TodoAppPhase3/TodoApp"
 import ClassBasedComponents from "./ClassBasedComponentsPractice/ClassBasedComponents"
 import StatePractice from './StatePractice/StatePractice'
 import TodoAppPhase4 from './TodoAppPhase4/TodoApp'
+import Counter from './ChangingState/Counter'
 
 
 
@@ -63,6 +64,10 @@ class App extends Component {
                       <Link to="/TodoAppPhase4/">Todo App Phase 4 Practice</Link>
                     </ListGroup.Item>
 
+                    <ListGroup.Item>
+                      <Link to="/Counter/">Changing State: Counter Example</Link>
+                    </ListGroup.Item>
+
                   </ListGroup>
                 </Col>
               </Row>
@@ -76,6 +81,7 @@ class App extends Component {
           <Route path="/ClassBasedComponents" component={ClassBasedComponents} />
           <Route path="/StatePractice" component={StatePractice} />
           <Route path="/TodoAppPhase4" component={TodoAppPhase4} />
+          <Route path="/Counter" component={Counter} />
         </div>
       </Router>
     );

@@ -7,7 +7,7 @@ import todosData from "./todosData"
 function TodoApp() {
   const todoComponents = todosData.map(item => <TodoItem key={item.id} todo={item} />)
   return (
-    <div>
+    <div className="todo-list">
       {todoComponents}
     </div>
   )
