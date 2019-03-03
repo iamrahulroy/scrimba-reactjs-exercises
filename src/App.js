@@ -22,7 +22,7 @@ import ClassBasedComponents from "./ClassBasedComponentsPractice/ClassBasedCompo
 import StatePractice from './StatePractice/StatePractice'
 import TodoAppPhase4 from './TodoAppPhase4/TodoApp'
 import Counter from './ChangingState/Counter'
-
+import TodoAppPhase6 from './TodoAppPhase6/TodoApp'
 
 
 class App extends Component {
@@ -68,6 +68,10 @@ class App extends Component {
                       <Link to="/Counter/">Changing State: Counter Example</Link>
                     </ListGroup.Item>
 
+                    <ListGroup.Item>
+                      <Link to="/TodoAppPhase6/">Todo App: Phase 6</Link>
+                    </ListGroup.Item>
+
                   </ListGroup>
                 </Col>
               </Row>
@@ -82,6 +86,7 @@ class App extends Component {
           <Route path="/StatePractice" component={StatePractice} />
           <Route path="/TodoAppPhase4" component={TodoAppPhase4} />
           <Route path="/Counter" component={Counter} />
+          <Route path="/TodoAppPhase6" component={TodoAppPhase6} />
         </div>
       </Router>
     );
